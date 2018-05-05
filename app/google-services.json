@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "221280063228",
+    "firebase_url": "https://vi-flea-market.firebaseio.com",
+    "project_id": "vi-flea-market",
+    "storage_bucket": "vi-flea-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221280063228:android:d8ebb56b2971f321",
+        "android_client_info": {
+          "package_name": "com.haui.huantd.vfmmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221280063228-l60541gtupmg1bec6re1rvm6vp0ri3tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haui.huantd.vfmmanager",
+            "certificate_hash": "bcddb98bb589038c07d001dabce88119c0a3a9a9"
+          }
+        },
+        {
+          "client_id": "221280063228-uu0ovdvh7257e50ncnpkpdov04igs5mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY0MWvx0YqNl4dav2L5WWSIOKz1222Vh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221280063228-uu0ovdvh7257e50ncnpkpdov04igs5mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221280063228:android:d57ec60b890af87b",
+        "android_client_info": {
+          "package_name": "com.haui.huantd.vifleamarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221280063228-j1nre91ho1ndi01788tq5pl3e55p546g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haui.huantd.vifleamarket",
+            "certificate_hash": "bcddb98bb589038c07d001dabce88119c0a3a9a9"
+          }
+        },
+        {
+          "client_id": "221280063228-uu0ovdvh7257e50ncnpkpdov04igs5mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY0MWvx0YqNl4dav2L5WWSIOKz1222Vh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221280063228-uu0ovdvh7257e50ncnpkpdov04igs5mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

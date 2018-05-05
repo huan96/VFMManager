@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VFM Manager</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="m_t_kh_u">Mật khẩu</string>
+    <string name="x_c_nh_n">Xác nhận</string>
+
+</resources>
