@@ -2,7 +2,6 @@ package com.haui.huantd.vfmmanager;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -58,23 +57,7 @@ public class MainActivity extends AppCompatActivity {
         });
         rvPost.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         adapter = new PostListAdapter(rvPost, listProductShow, this);
-        adapter.setLoadMore(new PostListAdapter.ILoadMore() {
-            @Override
-            public void onLoadMore() {
-                listProductShow.add(null);
-                adapter.notifyItemInserted(listProductShow.size() - 1);
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        listProductShow.remove(listProductShow.size() - 1);
-                        adapter.notifyItemRemoved(listProductShow.size());
-                        addNewPost();
-                        adapter.notifyDataSetChanged();
-                        adapter.setLoaded();
-                    }
-                }, 300); // Time to load
-            }
-        });
+
         rvPost.setAdapter(adapter);
     }
 
